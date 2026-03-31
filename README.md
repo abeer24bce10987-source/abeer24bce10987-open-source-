@@ -1,16 +1,16 @@
-# 📘 Open Source Audit Project – Apache HTTP Server
+#  Open Source Audit Project – Apache HTTP Server
 
-## 🎓 Course Details
+##  Course Details
 - Course Name: Open Source Software (OSS NGMC)  
 - University: VIT Bhopal  
 
-## 👨‍💻 Student Information
+##  Student Information
 - Name: Abeer Saxena  
 - Registration Number: 24BCE10987  
 - Selected Software: Apache HTTP Server  
 - Platform Used: Fedora Linux 43  
 
-## 📁 Project Directory Structure
+##  Project Directory Structure
 
 VITYA/
 ├── report/
@@ -31,10 +31,10 @@ VITYA/
 ├── .gitignore
 └── README.md
 
-## 🎯 Project Overview
+##  Project Overview
 This project focuses on analyzing an open-source system, Apache HTTP Server, from both technical and conceptual perspectives.
 
-## ⚙️ Requirements
+##  Requirements
 - bash  
 - coreutils  
 - grep  
@@ -43,7 +43,7 @@ This project focuses on analyzing an open-source system, Apache HTTP Server, fro
 - systemd  
 - Apache HTTP Server (httpd)  
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Update System
 sudo dnf update -y
@@ -55,7 +55,7 @@ sudo dnf install -y httpd git grep gawk coreutils curl
 sudo systemctl enable --now httpd
 sudo systemctl status httpd
 
-## ▶️ Running the Project
+##  Running the Project
 
 ### Make Scripts Executable
 chmod +x scripts/*.sh
@@ -73,7 +73,7 @@ curl -I http://localhost/test
 
 ./scripts/05_manifesto_generator.sh
 
-## 📜 Script Descriptions
+##  Script Descriptions
 
 ### Script 1 – System Info
 Displays OS details, user, and uptime.
@@ -90,7 +90,7 @@ Analyzes Apache logs and counts requests.
 ### Script 5 – Manifesto Generator
 Generates a custom open-source statement.
 
-## 🧪 Testing Workflow
+##  Testing Workflow
 cat /etc/fedora-release
 sudo systemctl enable --now httpd
 ps aux | grep httpd
@@ -98,11 +98,11 @@ ps aux | grep httpd
 curl -I http://localhost
 curl -I http://localhost/random
 
-## ⚠️ Notes
+## Notes
 - Use sudo for log access if required
 - Works on Fedora Live and Installed systems
 
-## ✅ Conclusion
+##  Conclusion
 Demonstrates Linux scripting and Apache server usage.
 
 Made for academic purposes – VIT Bhopal
