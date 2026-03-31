@@ -12,7 +12,7 @@
 
 ##  Project Directory Structure
 
-VITYA/
+VIT/
 ├── report/
 │   └── final_report.pdf
 ├── scripts/
